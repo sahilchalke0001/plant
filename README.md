@@ -188,9 +188,5 @@ https://github.com/user-attachments/assets/d51f94fa-f738-45c1-a035-ac203a71dff7
 
 
 
-
-## 📜 License
-This project is licensed under the **MIT License**.
-
 ---
 
