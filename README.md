@@ -20,7 +20,6 @@ The trained model is deployed on Azure to enable real-time predictions via API.
 - **Python 3.10**  
 - **TensorFlow** – For building and training the CNN model  
 - **NumPy & Pandas** – Data manipulation  
-- **Matplotlib & Seaborn** – Data visualization  
 - **Flask** – Web interface 
 
 ---
