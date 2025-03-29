@@ -176,6 +176,8 @@ This project leverages various Azure services to ensure seamless deployment and 
 6. **Endpoint Access:** The model is accessible through REST API endpoints for predictions.
 
 ---
+### 🚀Now you can use the model as Api because it is hosted on the Azure cloud and get the predictions!!!Vedio given down bellow...
+![plant.mp4](<https://media-hosting.imagekit.io/cb8c71b2913b44a4/plant.mp4?Expires=1837838144&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=qt8~D4EMeHVQfLwrjwnBE3LIbB9E9eGQi7SxXj~uKBIF6a8rKcXPzNhEYjbN5XblZHRDDSt1fYnmhLNpiB1GMVFQWOFNmNhN0bWY68t1PZ6fLBKlJ1A--WVCFEs4hWBubDPm07xSAd2Of-3flu5B3UAqWnEjH~Wc3~x91DrrsbrZKwhkK~v5gmJ7PZx8eIf1G6UfIII-g8scHzBlu0EsUysDbytXsTyZkIyiYNZl0O1-ac7mq0OJExEPAkYk2TSbzzpEeDz8h~kLjxhTDBPubGu8QJzNL9gU5rxqVimtVOdaaICT6XHnm4c6KMgfJbl1IfA-LUdH51b9FoDWQlpNsg__>)
 
 ## 📜 License
 This project is licensed under the **MIT License**.
