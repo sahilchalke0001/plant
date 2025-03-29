@@ -90,7 +90,7 @@ python app.py
 #using Flask
 python app.py
 ```
-![Apple Black Rot](https://ibb.co/4w2BNyh4)
+[![Whats-App-Image-2025-03-28-at-22-46-26-6a110694.jpg](https://i.postimg.cc/2SGggKD1/Whats-App-Image-2025-03-28-at-22-46-26-6a110694.jpg)](https://postimg.cc/JsyTkKt8)
 [plant_disease_classifier_2.jpg](sandbox:/mnt/data/plant_disease_classifier_2.jpg)
 
 ✅ Upload them to your GitHub repo, and you can use these links to add them to your README! 😊
