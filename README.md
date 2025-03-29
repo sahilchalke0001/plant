@@ -91,7 +91,7 @@ python app.py
 python app.py
 ```
 [![Apple_Black_Rot](https://i.postimg.cc/2SGggKD1/Whats-App-Image-2025-03-28-at-22-46-26-6a110694.jpg)](https://postimg.cc/JsyTkKt8)
-[plant_disease_classifier_2.jpg](sandbox:/mnt/data/plant_disease_classifier_2.jpg)
+[![Blue_Berry_Image](https://i.postimg.cc/7h1K05P5/Whats-App-Image-2025-03-28-at-22-23-52-9e6ed9e5.jpg)](https://postimg.cc/tnTdHCxb)
 
 ✅ Upload them to your GitHub repo, and you can use these links to add them to your README! 😊
 ---
