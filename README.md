@@ -1,11 +1,10 @@
-Here’s a well-structured README template for your **Plant Disease Classification using CNN** project:
-
----
 
 # 🌱 Plant Disease Classification using CNN 🌿
 
 ## 📚 Project Overview
-This project aims to classify plant leaf diseases using a **Convolutional Neural Network (CNN)**. The model is trained on a dataset containing images of healthy and diseased plant leaves. Accurate disease detection helps farmers take timely preventive measures and improve crop yield.
+This project aims to classify plant leaf diseases using a Convolutional Neural Network (CNN). The model is trained on a dataset containing images of healthy and diseased plant leaves. Accurate disease detection helps farmers take timely preventive measures and improve crop yield.
+
+The trained model is deployed on Azure to enable real-time predictions via API.
 
 ---
 
@@ -13,20 +12,21 @@ This project aims to classify plant leaf diseases using a **Convolutional Neural
 - Build a CNN model to classify various plant diseases.
 - Achieve high accuracy using transfer learning and fine-tuning.
 - Provide a web interface for users to upload images and get predictions.
+- Deploy the model on Microsoft Azure for real-time predictions.
 
 ---
 
 ## 🖥️ Tech Stack
-- **Python 3.x**  
-- **TensorFlow/Keras** – For building and training the CNN model  
+- **Python 3.10**  
+- **TensorFlow** – For building and training the CNN model  
 - **NumPy & Pandas** – Data manipulation  
 - **Matplotlib & Seaborn** – Data visualization  
-- **Flask/Streamlit** – Web interface (optional, if deployed)  
+- **Flask** – Web interface 
 
 ---
 
 ## 📊 Dataset
-- **Source:** [Plant Village Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease)  
+- **Source:** [Plant Village Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)  
 - The dataset contains labeled images of healthy and diseased leaves across multiple plant species.
 
 ---
@@ -46,14 +46,15 @@ This project aims to classify plant leaf diseases using a **Convolutional Neural
    - Split dataset into training, validation, and testing sets.
 
 2. **Model Training:**  
-   - Build CNN architecture or use a pre-trained model (VGG16, ResNet).  
+   - Build CNN architecture.  
    - Compile and fit the model.
 
 3. **Model Evaluation:**  
-   - Evaluate model accuracy and fine-tune if necessary.  
+   - Epochs Used: 5
+   - Accuracy Achieved: 97%
 
-4. **Deployment (Optional):**  
-   - Build a Flask or Streamlit app for real-time predictions.
+4. **Deployment:**  
+   - Build a Flask app for real-time predictions.
 
 ---
 
@@ -81,17 +82,18 @@ pip install -r requirements.txt
 
 ### 4. Run Model Training
 ```bash
-python train.py
+python app.py
 ```
 
 ### 5. Launch Web Interface (Optional)
 ```bash
 # If using Flask
 python app.py
-# If using Streamlit
-streamlit run app.py
 ```
+- [plant_disease_classifier_1.jpg](sandbox:/mnt/data/plant_disease_classifier_1.jpg)
+- [plant_disease_classifier_2.jpg](sandbox:/mnt/data/plant_disease_classifier_2.jpg)
 
+✅ Upload them to your GitHub repo, and you can use these links to add them to your README! 😊
 ---
 
 ## 📈 Model Performance
