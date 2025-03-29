@@ -90,8 +90,10 @@ python app.py
 #using Flask
 python app.py
 ```
-[![Apple_Black_Rot](https://i.postimg.cc/2SGggKD1/Whats-App-Image-2025-03-28-at-22-46-26-6a110694.jpg)](https://postimg.cc/JsyTkKt8)
-[![Blue_Berry_Image](https://i.postimg.cc/7h1K05P5/Whats-App-Image-2025-03-28-at-22-23-52-9e6ed9e5.jpg)](https://postimg.cc/tnTdHCxb)
+![op2](https://github.com/user-attachments/assets/c3768654-4802-4667-a4bd-15889e89fb22)
+
+![op1](https://github.com/user-attachments/assets/7dce0c72-bc07-46aa-89c4-677fa40b9172)
+
 
 ---
 
@@ -181,11 +183,11 @@ This project leverages various Azure services to ensure seamless deployment and 
 
 https://github.com/user-attachments/assets/d51f94fa-f738-45c1-a035-ac203a71dff7
 
+![Azure1](https://github.com/user-attachments/assets/5b2cb7ec-4685-4f74-9157-0a1b137535f8)
+
+![Azure2](https://github.com/user-attachments/assets/a899f82b-a1dc-4d16-88b5-a18cfd700ec7)
 
 
-[![Azure1.jpg](https://i.postimg.cc/0jxyc4vV/Azure1.jpg)](https://postimg.cc/ft2sbBJd)
-
-[![Azure2.jpg](https://i.postimg.cc/4Nf3cjBd/Azure2.jpg)](https://postimg.cc/14dPh7xh)
 
 
 ## 📜 License
