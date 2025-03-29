@@ -121,8 +121,8 @@ Contributions are welcome! Please feel free to submit a pull request or report i
 
 ## 📩 Contact
 For any queries, reach out to:  
-📧 **your.email@example.com**  
-🔗 [GitHub Profile](https://github.com/yourusername)
+📧 **sahilchalke0001@gmail.com**  
+🔗 [GitHub Profile](https://github.com/sahilchalke0001)
 
 ---
 Here’s a well-structured **README.md** section explaining the Azure resources used for your **Plant Disease Classification** project:
