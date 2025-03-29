@@ -87,11 +87,11 @@ python app.py
 
 ### 5. Launch Web Interface (Optional)
 ```bash
-# If using Flask
+#using Flask
 python app.py
 ```
-- [plant_disease_classifier_1.jpg](sandbox:/mnt/data/plant_disease_classifier_1.jpg)
-- [plant_disease_classifier_2.jpg](sandbox:/mnt/data/plant_disease_classifier_2.jpg)
+[plant_disease_classifier_1.jpg](sandbox:/mnt/data/plant_disease_classifier_1.jpg)
+[plant_disease_classifier_2.jpg](sandbox:/mnt/data/plant_disease_classifier_2.jpg)
 
 ✅ Upload them to your GitHub repo, and you can use these links to add them to your README! 😊
 ---
