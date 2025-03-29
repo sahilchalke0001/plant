@@ -179,6 +179,10 @@ This project leverages various Azure services to ensure seamless deployment and 
 ### 🚀Now you can use the model as Api because it is hosted on the Azure cloud and get the predictions!!!Vedio given down bellow...
 ![azure_api_deployment](https://github.com/user-attachments/assets/c1be1cd8-98b6-4dbd-8f70-649197d556f3)
 
+[![Azure1.jpg](https://i.postimg.cc/0jxyc4vV/Azure1.jpg)](https://postimg.cc/ft2sbBJd)
+
+[![Azure2.jpg](https://i.postimg.cc/4Nf3cjBd/Azure2.jpg)](https://postimg.cc/14dPh7xh)
+
 
 ## 📜 License
 This project is licensed under the **MIT License**.
