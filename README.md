@@ -93,7 +93,6 @@ python app.py
 [![Apple_Black_Rot](https://i.postimg.cc/2SGggKD1/Whats-App-Image-2025-03-28-at-22-46-26-6a110694.jpg)](https://postimg.cc/JsyTkKt8)
 [![Blue_Berry_Image](https://i.postimg.cc/7h1K05P5/Whats-App-Image-2025-03-28-at-22-23-52-9e6ed9e5.jpg)](https://postimg.cc/tnTdHCxb)
 
-✅ Upload them to your GitHub repo, and you can use these links to add them to your README! 😊
 ---
 
 ## 📈 Model Performance
@@ -126,10 +125,60 @@ For any queries, reach out to:
 🔗 [GitHub Profile](https://github.com/yourusername)
 
 ---
+Here’s a well-structured **README.md** section explaining the Azure resources used for your **Plant Disease Classification** project:
+
+---
+
+## 🌱 Plant Disease Classification – Azure Deployment
+
+This project leverages various Azure services to ensure seamless deployment and management of the CNN model used for plant disease classification. Below is a list of the key Azure resources utilized:
+
+---
+
+### ⚡️ Azure Resources Used:
+
+1. **Azure Resource Group**  
+   - Groups related resources, enabling better management, monitoring, and security of Azure assets.
+
+2. **Azure Machine Learning Workspace**  
+   - Manages machine learning models, experiments, and endpoints.
+   - Provides an interactive interface to train, evaluate, and deploy models.
+
+3. **Azure Machine Learning SDK (v2)**  
+   - Programmatically creates and manages endpoints for deploying the CNN model.
+   - Facilitates seamless interaction with the Azure Machine Learning Workspace.
+
+4. **Azure Identity**  
+   - Ensures secure authentication and access control to Azure resources.
+   - Manages credentials securely, preventing unauthorized access.
+
+5. **Azure Container Instances (ACI)**  
+   - Hosts the deployed model in a lightweight container environment.
+   - Ensures scalability and high availability of the application.
+
+6. **Azure Storage Account**  
+   - Stores model artifacts, datasets, and other related files.
+   - Enables easy retrieval of model files during deployment.
+
+7. **Azure Key Vault**  
+   - Manages sensitive information such as API keys, passwords, and connection strings.
+   - Ensures secure access to application secrets and certificates.
+
+---
+
+### 🚀 Deployment Workflow
+
+1. **Model Training:** Train the CNN model locally or on Azure Machine Learning.
+2. **Model Upload:** Store the trained model in the Azure Storage Account.
+3. **Endpoint Creation:** Use the Azure ML SDK to create and manage model endpoints.
+4. **Container Deployment:** Deploy the model using Azure Container Instances.
+5. **Secure Authentication:** Use Azure Identity and Key Vault to manage access securely.
+6. **Endpoint Access:** The model is accessible through REST API endpoints for predictions.
+
+---
 
 ## 📜 License
 This project is licensed under the **MIT License**.
 
 ---
 
-Let me know if you’d like help generating a `requirements.txt` or improving the web interface! 😊
