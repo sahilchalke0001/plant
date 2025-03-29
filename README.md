@@ -177,7 +177,11 @@ This project leverages various Azure services to ensure seamless deployment and 
 
 ---
 ### 🚀Now you can use the model as Api because it is hosted on the Azure cloud and get the predictions!!!Vedio given down bellow...
-![azure_api_deployment](https://github.com/user-attachments/assets/c1be1cd8-98b6-4dbd-8f70-649197d556f3)
+
+
+https://github.com/user-attachments/assets/d51f94fa-f738-45c1-a035-ac203a71dff7
+
+
 
 [![Azure1.jpg](https://i.postimg.cc/0jxyc4vV/Azure1.jpg)](https://postimg.cc/ft2sbBJd)
 
