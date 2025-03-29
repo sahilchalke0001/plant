@@ -60,8 +60,8 @@ The trained model is deployed on Azure to enable real-time predictions via API.
 ## ⚙️ Setup Instructions
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/plant-disease-classification.git
-cd plant-disease-classification
+git clone https://github.com/sahilchalke0001/plant.git
+cd frontend
 ```
 
 ### 2. Create and Activate Virtual Environment
@@ -84,11 +84,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-### 5. Launch Web Interface (Optional)
-```bash
-#using Flask
-python app.py
-```
+
 ![op2](https://github.com/user-attachments/assets/c3768654-4802-4667-a4bd-15889e89fb22)
 
 ![op1](https://github.com/user-attachments/assets/7dce0c72-bc07-46aa-89c4-677fa40b9172)
