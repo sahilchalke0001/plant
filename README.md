@@ -173,7 +173,7 @@ This project leverages various Azure services to ensure seamless deployment and 
 6. **Endpoint Access:** The model is accessible through REST API endpoints for predictions.
 
 ---
-### 🚀Now you can use the model as Api because it is hosted on the Azure cloud and get the predictions!!!Vedio given down bellow...
+### 🚀Now you can use the model as Api because it is hosted on the Azure cloud and get the predictions!!!Vidieo given down below...
 
 
 https://github.com/user-attachments/assets/d51f94fa-f738-45c1-a035-ac203a71dff7
