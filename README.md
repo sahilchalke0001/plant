@@ -99,7 +99,6 @@ python app.py
 ---
 
 ## 🧪 Results
-- Confusion matrix and classification report generated for performance evaluation.
 - Example predictions with confidence scores.
 
 ---
