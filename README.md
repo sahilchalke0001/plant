@@ -100,6 +100,7 @@ python app.py
 
 ## 🧪 Results
 - Example predictions with confidence scores.
+<img width="497" height="166" alt="Screenshot 2025-10-19 100856" src="https://github.com/user-attachments/assets/2f76c7e4-ed92-4032-905e-9f11a2a0a4fb" />
 
 ---
 
