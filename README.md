@@ -1,14 +1,13 @@
+# Plant Disease Classification using CNN 
 
-# 🌱 Plant Disease Classification using CNN 🌿
-
-## 📚 Project Overview
+##  Project Overview
 This project aims to classify plant leaf diseases using a Convolutional Neural Network (CNN). The model is trained on a dataset containing images of healthy and diseased plant leaves. Accurate disease detection helps farmers take timely preventive measures and improve crop yield.
 
 The trained model is deployed on Azure to enable real-time predictions via API.
 
 ---
 
-## 🎯 Objective
+##  Objective
 - Build a CNN model to classify various plant diseases.
 - Achieve high accuracy using transfer learning and fine-tuning.
 - Provide a web interface for users to upload images and get predictions.
@@ -16,7 +15,7 @@ The trained model is deployed on Azure to enable real-time predictions via API.
 
 ---
 
-## 🖥️ Tech Stack
+##  Tech Stack
 - **Python 3.10**  
 - **TensorFlow** – For building and training the CNN model  
 - **NumPy & Pandas** – Data manipulation  
@@ -24,13 +23,13 @@ The trained model is deployed on Azure to enable real-time predictions via API.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 - **Source:** [Plant Village Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)  
 - The dataset contains labeled images of healthy and diseased leaves across multiple plant species.
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 - **Input Layer:** 224x224 RGB image  
 - **Conv Layers:** Multiple convolution and pooling layers to extract features  
 - **Flatten Layer:** Converts matrix to vector  
@@ -39,7 +38,7 @@ The trained model is deployed on Azure to enable real-time predictions via API.
 
 ---
 
-## 🚀 Project Workflow
+##  Project Workflow
 1. **Data Collection & Preprocessing:**  
    - Image resizing, normalization, and data augmentation.  
    - Split dataset into training, validation, and testing sets.
@@ -57,81 +56,69 @@ The trained model is deployed on Azure to enable real-time predictions via API.
 
 ---
 
-## ⚙️ Setup Instructions
-### 1. Clone the Repository
-```bash
-git clone https://github.com/sahilchalke0001/plant.git
-cd frontend
-```
+##  CNN Trained from Scratch
 
-### 2. Create and Activate Virtual Environment
-```bash
-# Create virtual environment
-python3 -m venv env
-# Activate (Linux/Mac)
-source env/bin/activate
-# Activate (Windows)
-env\Scripts\activate
-```
+In addition to the transfer learning approach, the CNN model was also **built and trained entirely from scratch** — without using any pre-trained weights — to validate the architecture's standalone performance.
 
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+###  Architecture (From Scratch)
+- 5 custom convolutional blocks with **BatchNormalization** and **MaxPooling**
+- **GlobalAveragePooling2D** instead of Flatten to reduce overfitting
+- Dense head with **Dropout(0.5)** for regularization
+- Output: **Softmax** over 38 plant disease classes
 
-### 4. Run Model Training
-```bash
-python app.py
-```
+###  Training Configuration
+| Parameter | Value |
+|-----------|-------|
+| Image Size | 224 × 224 |
+| Batch Size | 32 |
+| Optimizer | Adam (lr = 1e-3) |
+| Loss | Categorical Crossentropy |
+| Max Epochs | 50 |
+| Callbacks | EarlyStopping, ReduceLROnPlateau, ModelCheckpoint |
 
+###  Result
+> ** Test Accuracy: 96% — trained from scratch, no pre-trained weights used.**
 
-![op2](https://github.com/user-attachments/assets/c3768654-4802-4667-a4bd-15889e89fb22)
-
-![op1](https://github.com/user-attachments/assets/7dce0c72-bc07-46aa-89c4-677fa40b9172)
-
+This demonstrates that a well-designed custom CNN with BatchNormalization, data augmentation, and proper callbacks can rival transfer learning on the PlantVillage dataset.
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 - **Accuracy:** 95% on test data  
 - **Loss:** Minimal loss during validation  
 
 ---
 
-## 🧪 Results
+![op2](https://github.com/user-attachments/assets/c3768654-4802-4667-a4bd-15889e89fb22)
+
+![op1](https://github.com/user-attachments/assets/7dce0c72-bc07-46aa-89c4-677fa40b9172)
+
+---
+
+##  Results
 - Example predictions with confidence scores.
 
 ---
 
-## 📝 To-Do List
-- [ ] Fine-tune the model with more data.  
-- [ ] Add real-time prediction API.  
-- [ ] Integrate with IoT for real-time disease detection.  
-
----
-
-## 🤝 Contributing
+##  Contributing
 Contributions are welcome! Please feel free to submit a pull request or report issues.
 
 ---
 
-## 📩 Contact
+##  Contact
 For any queries, reach out to:  
-📧 **sahilchalke0001@gmail.com**  
-🔗 [GitHub Profile](https://github.com/sahilchalke0001)
-
----
-Here’s a well-structured **README.md** section explaining the Azure resources used for your **Plant Disease Classification** project:
+ **sahilchalke0001@gmail.com**  
+ [GitHub Profile](https://github.com/sahilchalke0001)
 
 ---
 
-## 🌱 Plant Disease Classification – Azure Deployment
+##  Plant Disease Classification – Azure Deployment
 
 This project leverages various Azure services to ensure seamless deployment and management of the CNN model used for plant disease classification. Below is a list of the key Azure resources utilized:
 
 ---
 
-### ⚡️ Azure Resources Used:
+###  Azure Resources Used:
 
 1. **Azure Resource Group**  
    - Groups related resources, enabling better management, monitoring, and security of Azure assets.
@@ -162,7 +149,7 @@ This project leverages various Azure services to ensure seamless deployment and 
 
 ---
 
-### 🚀 Deployment Workflow
+###  Deployment Workflow
 
 1. **Model Training:** Train the CNN model locally or on Azure Machine Learning.
 2. **Model Upload:** Store the trained model in the Azure Storage Account.
@@ -172,16 +159,12 @@ This project leverages various Azure services to ensure seamless deployment and 
 6. **Endpoint Access:** The model is accessible through REST API endpoints for predictions.
 
 ---
-### 🚀Now you can use the model as Api because it is hosted on the Azure cloud and get the predictions!!!Vidieo given down below...
 
+###  Now you can use the model as API because it is hosted on the Azure cloud and get the predictions!!! Video given below...
 
 https://github.com/user-attachments/assets/d51f94fa-f738-45c1-a035-ac203a71dff7
 
 ![Azure1](https://github.com/user-attachments/assets/5b2cb7ec-4685-4f74-9157-0a1b137535f8)
 
 ![Azure2](https://github.com/user-attachments/assets/a899f82b-a1dc-4d16-88b5-a18cfd700ec7)
-
-
-
----
 
